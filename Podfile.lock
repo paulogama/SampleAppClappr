@@ -1,0 +1,15 @@
+PODS:
+  - Clappr (0.6.3):
+    - Kingfisher (~> 3.0)
+  - Kingfisher (3.10.1)
+
+DEPENDENCIES:
+  - Clappr (~> 0.6)
+
+SPEC CHECKSUMS:
+  Clappr: e36ac337d49cbe2c7014c1582a5c41c6737dd106
+  Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
+
+PODFILE CHECKSUM: 6346c4d903526597dcea635d1fd8766e1c54a1ae
+
+COCOAPODS: 1.2.1

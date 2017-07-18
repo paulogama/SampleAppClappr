@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2581F41D3AE794823A41E8C2 /* Pods_SampleAppClappr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE58EA7EB38ADF04D9B8F26 /* Pods_SampleAppClappr.framework */; };
 		C90B63261F1E95830092F192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B63251F1E95830092F192 /* AppDelegate.swift */; };
 		C90B632B1F1E95830092F192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90B63291F1E95830092F192 /* Main.storyboard */; };
 		C90B632D1F1E95830092F192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90B632C1F1E95830092F192 /* Assets.xcassets */; };
 		C90B63301F1E95830092F192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90B632E1F1E95830092F192 /* LaunchScreen.storyboard */; };
 		C90B633B1F1E95830092F192 /* SampleAppClapprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B633A1F1E95830092F192 /* SampleAppClapprTests.swift */; };
+		FDFCE8FDF093899C35557593 /* Pods_SampleAppClapprTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DB4128FB5BCF71842B09AC /* Pods_SampleAppClapprTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EE58EA7EB38ADF04D9B8F26 /* Pods_SampleAppClappr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppClappr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A88F17FD2F82F3A766F1ED7 /* Pods-SampleAppClappr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClappr.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClappr/Pods-SampleAppClappr.release.xcconfig"; sourceTree = "<group>"; };
+		B5DB4128FB5BCF71842B09AC /* Pods_SampleAppClapprTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAppClapprTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90B63221F1E95830092F192 /* SampleAppClappr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppClappr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90B63251F1E95830092F192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C90B632A1F1E95830092F192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +39,9 @@
 		C90B63361F1E95830092F192 /* SampleAppClapprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppClapprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90B633A1F1E95830092F192 /* SampleAppClapprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppClapprTests.swift; sourceTree = "<group>"; };
 		C90B633C1F1E95830092F192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0B5DCFA1FAAA6DE2AE5965 /* Pods-SampleAppClappr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClappr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClappr/Pods-SampleAppClappr.debug.xcconfig"; sourceTree = "<group>"; };
+		F429FAC52B27273FE5B3148D /* Pods-SampleAppClapprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClapprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClapprTests/Pods-SampleAppClapprTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE98DAA647BB17C9AEC55194 /* Pods-SampleAppClapprTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClapprTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClapprTests/Pods-SampleAppClapprTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2581F41D3AE794823A41E8C2 /* Pods_SampleAppClappr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +57,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFCE8FDF093899C35557593 /* Pods_SampleAppClapprTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C9FF96B5734BE6CE16D9868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE0B5DCFA1FAAA6DE2AE5965 /* Pods-SampleAppClappr.debug.xcconfig */,
+				9A88F17FD2F82F3A766F1ED7 /* Pods-SampleAppClappr.release.xcconfig */,
+				F429FAC52B27273FE5B3148D /* Pods-SampleAppClapprTests.debug.xcconfig */,
+				FE98DAA647BB17C9AEC55194 /* Pods-SampleAppClapprTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C90B63191F1E95820092F192 = {
 			isa = PBXGroup;
 			children = (
 				C90B63241F1E95830092F192 /* SampleAppClappr */,
 				C90B63391F1E95830092F192 /* SampleAppClapprTests */,
 				C90B63231F1E95830092F192 /* Products */,
+				6C9FF96B5734BE6CE16D9868 /* Pods */,
+				CD9BFD8545010A11EC9B2F16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +116,15 @@
 			path = SampleAppClapprTests;
 			sourceTree = "<group>";
 		};
+		CD9BFD8545010A11EC9B2F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE58EA7EB38ADF04D9B8F26 /* Pods_SampleAppClappr.framework */,
+				B5DB4128FB5BCF71842B09AC /* Pods_SampleAppClapprTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C90B633F1F1E95830092F192 /* Build configuration list for PBXNativeTarget "SampleAppClappr" */;
 			buildPhases = (
+				60F9E25BA989F4AFB2D399E3 /* [CP] Check Pods Manifest.lock */,
 				C90B631E1F1E95830092F192 /* Sources */,
 				C90B631F1F1E95830092F192 /* Frameworks */,
 				C90B63201F1E95830092F192 /* Resources */,
+				5239E1839EB81891D819DABA /* [CP] Embed Pods Frameworks */,
+				98A06C73FA40FEEEB4B21238 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C90B63421F1E95830092F192 /* Build configuration list for PBXNativeTarget "SampleAppClapprTests" */;
 			buildPhases = (
+				DEF52039D44629179E09A16D /* [CP] Check Pods Manifest.lock */,
 				C90B63321F1E95830092F192 /* Sources */,
 				C90B63331F1E95830092F192 /* Frameworks */,
 				C90B63341F1E95830092F192 /* Resources */,
+				F6F4C70669F9386CFADF5051 /* [CP] Embed Pods Frameworks */,
+				52CB66E5FE547E6AF0868988 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +230,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5239E1839EB81891D819DABA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppClappr/Pods-SampleAppClappr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52CB66E5FE547E6AF0868988 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppClapprTests/Pods-SampleAppClapprTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F9E25BA989F4AFB2D399E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98A06C73FA40FEEEB4B21238 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppClappr/Pods-SampleAppClappr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF52039D44629179E09A16D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F4C70669F9386CFADF5051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAppClapprTests/Pods-SampleAppClapprTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C90B631E1F1E95830092F192 /* Sources */ = {
@@ -335,6 +466,7 @@
 		};
 		C90B63401F1E95830092F192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0B5DCFA1FAAA6DE2AE5965 /* Pods-SampleAppClappr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53QWD2UZM4;
@@ -348,6 +480,7 @@
 		};
 		C90B63411F1E95830092F192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A88F17FD2F82F3A766F1ED7 /* Pods-SampleAppClappr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53QWD2UZM4;
@@ -361,6 +494,7 @@
 		};
 		C90B63431F1E95830092F192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F429FAC52B27273FE5B3148D /* Pods-SampleAppClapprTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -376,6 +510,7 @@
 		};
 		C90B63441F1E95830092F192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE98DAA647BB17C9AEC55194 /* Pods-SampleAppClapprTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
