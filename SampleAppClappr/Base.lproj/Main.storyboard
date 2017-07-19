@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1es-2Y-8DT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1es-2Y-8DT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Home View Controller-->
         <scene sceneID="bYD-ox-dWf">
             <objects>
-                <viewController id="1es-2Y-8DT" customClass="HomeViewController" customModule="SampleAppClappr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1es-2Y-8DT" customClass="HomeViewController" customModule="SampleAppClappr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="emm-nC-jPk"/>
                         <viewControllerLayoutGuide type="bottom" id="CoX-5v-9JE"/>
@@ -21,16 +21,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qnh-yv-9AN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJz-iI-EUp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HJz-iI-EUp" firstAttribute="top" secondItem="Rnz-U0-X7n" secondAttribute="top" id="2Nv-k0-FEq"/>
+                            <constraint firstAttribute="bottom" secondItem="HJz-iI-EUp" secondAttribute="bottom" constant="457" id="Nuq-pd-SWB"/>
+                            <constraint firstItem="HJz-iI-EUp" firstAttribute="leading" secondItem="Rnz-U0-X7n" secondAttribute="leading" id="Tao-ZD-2zN"/>
+                            <constraint firstAttribute="trailing" secondItem="HJz-iI-EUp" secondAttribute="trailing" id="gaH-dF-Hcg"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="videosTableView" destination="qnh-yv-9AN" id="8vy-od-1BG"/>
+                        <outlet property="playerView" destination="HJz-iI-EUp" id="RY2-7y-gqU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfY-Rr-8iE" userLabel="First Responder" sceneMemberID="firstResponder"/>

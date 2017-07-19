@@ -23,16 +23,20 @@ class SampleAppClapprTests: XCTestCase {
         
         super.tearDown()
     }
-
-//    func testHomeViewControllerInheritance() {
-//        let homeViewController = HomeViewController()
-//        XCTAssertTrue(((homeViewController as? UITableViewController) != nil))
-//    }
     
     func testHomeViewControllerSubviews() {
-        let homeViewController = HomeViewController()
-//        XCTAssertTrue(homeViewController.view.subviews[0] as? UITableView != nil)
-        XCTAssertTrue(homeViewController.view.subviews[0] as? Clappr.Core != nil)
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        
+        let tableView = homeViewController.view.subviews.filter{$0 is UITableView}
+        
+        XCTAssertEqual(tableView.count, 1)
     }
     
+    func testTableViewHeaderShouldBeAtheClapprCore() {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        
+        homeViewController.videosTableView
+    }
 }
