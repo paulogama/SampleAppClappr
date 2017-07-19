@@ -13,6 +13,7 @@
 		C90B632D1F1E95830092F192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90B632C1F1E95830092F192 /* Assets.xcassets */; };
 		C90B63301F1E95830092F192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90B632E1F1E95830092F192 /* LaunchScreen.storyboard */; };
 		C90B633B1F1E95830092F192 /* SampleAppClapprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B633A1F1E95830092F192 /* SampleAppClapprTests.swift */; };
+		C9F4AF981F1E9E5400F0630B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F4AF971F1E9E5400F0630B /* HomeViewController.swift */; };
 		FDFCE8FDF093899C35557593 /* Pods_SampleAppClapprTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DB4128FB5BCF71842B09AC /* Pods_SampleAppClapprTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		C90B63361F1E95830092F192 /* SampleAppClapprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppClapprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90B633A1F1E95830092F192 /* SampleAppClapprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppClapprTests.swift; sourceTree = "<group>"; };
 		C90B633C1F1E95830092F192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F4AF971F1E9E5400F0630B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EE0B5DCFA1FAAA6DE2AE5965 /* Pods-SampleAppClappr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClappr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClappr/Pods-SampleAppClappr.debug.xcconfig"; sourceTree = "<group>"; };
 		F429FAC52B27273FE5B3148D /* Pods-SampleAppClapprTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClapprTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClapprTests/Pods-SampleAppClapprTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE98DAA647BB17C9AEC55194 /* Pods-SampleAppClapprTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppClapprTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppClapprTests/Pods-SampleAppClapprTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				C90B632C1F1E95830092F192 /* Assets.xcassets */,
 				C90B632E1F1E95830092F192 /* LaunchScreen.storyboard */,
 				C90B63311F1E95830092F192 /* Info.plist */,
+				C9F4AF971F1E9E5400F0630B /* HomeViewController.swift */,
 			);
 			path = SampleAppClappr;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90B63261F1E95830092F192 /* AppDelegate.swift in Sources */,
+				C9F4AF981F1E9E5400F0630B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +547,7 @@
 				C90B63411F1E95830092F192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C90B63421F1E95830092F192 /* Build configuration list for PBXNativeTarget "SampleAppClapprTests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +556,7 @@
 				C90B63441F1E95830092F192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
