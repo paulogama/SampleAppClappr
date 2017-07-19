@@ -29,14 +29,9 @@ class SampleAppClapprTests: XCTestCase {
         let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
         
         let tableView = homeViewController.view.subviews.filter{$0 is UITableView}
+        let playerView = homeViewController.playerView.subviews.filter{$0 is Clappr.Core}
         
         XCTAssertEqual(tableView.count, 1)
-    }
-    
-    func testTableViewHeaderShouldBeAtheClapprCore() {
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        let homeViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        
-        homeViewController.videosTableView
+        XCTAssertEqual(playerView.count, 1)
     }
 }

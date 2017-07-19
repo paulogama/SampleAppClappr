@@ -21,6 +21,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qnh-yv-9AN">
+                                <rect key="frame" x="0.0" y="210" width="375" height="457"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Identifier" id="1rW-0J-v17">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1rW-0J-v17" id="OzI-pZ-l45">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="1es-2Y-8DT" id="6d0-U5-aqE"/>
+                                    <outlet property="delegate" destination="1es-2Y-8DT" id="Am8-mX-yIq"/>
+                                </connections>
+                            </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HJz-iI-EUp">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="210"/>
                             </view>
@@ -28,13 +46,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HJz-iI-EUp" firstAttribute="top" secondItem="Rnz-U0-X7n" secondAttribute="top" id="2Nv-k0-FEq"/>
+                            <constraint firstItem="HJz-iI-EUp" firstAttribute="leading" secondItem="qnh-yv-9AN" secondAttribute="leading" id="3P7-Mo-WyH"/>
+                            <constraint firstItem="qnh-yv-9AN" firstAttribute="top" secondItem="HJz-iI-EUp" secondAttribute="bottom" id="LGS-nc-lvl"/>
                             <constraint firstAttribute="bottom" secondItem="HJz-iI-EUp" secondAttribute="bottom" constant="457" id="Nuq-pd-SWB"/>
                             <constraint firstItem="HJz-iI-EUp" firstAttribute="leading" secondItem="Rnz-U0-X7n" secondAttribute="leading" id="Tao-ZD-2zN"/>
                             <constraint firstAttribute="trailing" secondItem="HJz-iI-EUp" secondAttribute="trailing" id="gaH-dF-Hcg"/>
+                            <constraint firstItem="HJz-iI-EUp" firstAttribute="trailing" secondItem="qnh-yv-9AN" secondAttribute="trailing" id="qdu-e1-pNQ"/>
+                            <constraint firstItem="qnh-yv-9AN" firstAttribute="bottom" secondItem="CoX-5v-9JE" secondAttribute="top" id="vBF-Uy-O1W"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="playerView" destination="HJz-iI-EUp" id="RY2-7y-gqU"/>
+                        <outlet property="videosTableView" destination="qnh-yv-9AN" id="8vy-od-1BG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfY-Rr-8iE" userLabel="First Responder" sceneMemberID="firstResponder"/>
